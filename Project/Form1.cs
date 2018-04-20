@@ -29,14 +29,14 @@ namespace Project
             if(ev.KeyChar.ToString() == tanc[i].ToString())
                 rightMove = true;
 
-            Button move = this.Controls.Find(ev.KeyChar.ToString(), true).FirstOrDefault() as Button;
+            PictureBox move = this.Controls.Find(ev.KeyChar.ToString(), true).FirstOrDefault() as PictureBox;
             if (move == null)
                 return;
 
             if (rightMove)
-                move.BackColor = Color.Green;
+                move.Image = Project.Properties.Resources.step_true;
             else
-                move.BackColor = Color.Red;
+                move.Image = Project.Properties.Resources.step_false;
             i++;
             if (i == tanc.Length)
                 i = 0;

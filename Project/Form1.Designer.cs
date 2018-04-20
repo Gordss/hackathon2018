@@ -32,28 +32,45 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.backtomenu = new System.Windows.Forms.Button();
-            this.z = new System.Windows.Forms.Button();
-            this.x = new System.Windows.Forms.Button();
-            this.c = new System.Windows.Forms.Button();
-            this.v = new System.Windows.Forms.Button();
-            this.b = new System.Windows.Forms.Button();
-            this.n = new System.Windows.Forms.Button();
-            this.h = new System.Windows.Forms.Button();
-            this.g = new System.Windows.Forms.Button();
-            this.f = new System.Windows.Forms.Button();
-            this.d = new System.Windows.Forms.Button();
-            this.s = new System.Windows.Forms.Button();
-            this.a = new System.Windows.Forms.Button();
-            this.y = new System.Windows.Forms.Button();
-            this.t = new System.Windows.Forms.Button();
-            this.r = new System.Windows.Forms.Button();
-            this.e = new System.Windows.Forms.Button();
-            this.w = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.q = new System.Windows.Forms.PictureBox();
+            this.w = new System.Windows.Forms.PictureBox();
+            this.e = new System.Windows.Forms.PictureBox();
+            this.r = new System.Windows.Forms.PictureBox();
+            this.t = new System.Windows.Forms.PictureBox();
+            this.y = new System.Windows.Forms.PictureBox();
+            this.a = new System.Windows.Forms.PictureBox();
+            this.s = new System.Windows.Forms.PictureBox();
+            this.d = new System.Windows.Forms.PictureBox();
+            this.f = new System.Windows.Forms.PictureBox();
+            this.g = new System.Windows.Forms.PictureBox();
+            this.h = new System.Windows.Forms.PictureBox();
+            this.z = new System.Windows.Forms.PictureBox();
+            this.x = new System.Windows.Forms.PictureBox();
+            this.c = new System.Windows.Forms.PictureBox();
+            this.v = new System.Windows.Forms.PictureBox();
+            this.b = new System.Windows.Forms.PictureBox();
+            this.n = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.q)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.w)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.e)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.y)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.f)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.g)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.x)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.b)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.n)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -99,8 +116,8 @@
             this.tableLayoutPanel2.Controls.Add(this.t, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.r, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.e, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.q, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.w, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 108);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -138,203 +155,203 @@
             this.backtomenu.UseVisualStyleBackColor = false;
             this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
-            // z
+            // q
             // 
-            this.z.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.z.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.z.Location = new System.Drawing.Point(3, 281);
-            this.z.Name = "z";
-            this.z.Size = new System.Drawing.Size(161, 133);
-            this.z.TabIndex = 12;
-            this.z.Text = "Z";
-            this.z.UseVisualStyleBackColor = false;
-            // 
-            // x
-            // 
-            this.x.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.x.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.x.Location = new System.Drawing.Point(170, 281);
-            this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(161, 133);
-            this.x.TabIndex = 13;
-            this.x.Text = "X";
-            this.x.UseVisualStyleBackColor = false;
-            // 
-            // c
-            // 
-            this.c.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.c.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.c.Location = new System.Drawing.Point(337, 281);
-            this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(161, 133);
-            this.c.TabIndex = 14;
-            this.c.Text = "C";
-            this.c.UseVisualStyleBackColor = false;
-            // 
-            // v
-            // 
-            this.v.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.v.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.v.Location = new System.Drawing.Point(504, 281);
-            this.v.Name = "v";
-            this.v.Size = new System.Drawing.Size(161, 133);
-            this.v.TabIndex = 15;
-            this.v.Text = "V";
-            this.v.UseVisualStyleBackColor = false;
-            // 
-            // b
-            // 
-            this.b.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.b.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.b.Location = new System.Drawing.Point(671, 281);
-            this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(161, 133);
-            this.b.TabIndex = 16;
-            this.b.Text = "B";
-            this.b.UseVisualStyleBackColor = false;
-            // 
-            // n
-            // 
-            this.n.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.n.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.n.Location = new System.Drawing.Point(838, 281);
-            this.n.Name = "n";
-            this.n.Size = new System.Drawing.Size(164, 133);
-            this.n.TabIndex = 17;
-            this.n.Text = "N";
-            this.n.UseVisualStyleBackColor = false;
-            // 
-            // h
-            // 
-            this.h.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.h.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.h.Location = new System.Drawing.Point(838, 142);
-            this.h.Name = "h";
-            this.h.Size = new System.Drawing.Size(164, 133);
-            this.h.TabIndex = 11;
-            this.h.Text = "H";
-            this.h.UseVisualStyleBackColor = false;
-            // 
-            // g
-            // 
-            this.g.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.g.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.g.Location = new System.Drawing.Point(671, 142);
-            this.g.Name = "g";
-            this.g.Size = new System.Drawing.Size(161, 133);
-            this.g.TabIndex = 10;
-            this.g.Text = "G";
-            this.g.UseVisualStyleBackColor = false;
-            // 
-            // f
-            // 
-            this.f.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.f.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f.Location = new System.Drawing.Point(504, 142);
-            this.f.Name = "f";
-            this.f.Size = new System.Drawing.Size(161, 133);
-            this.f.TabIndex = 9;
-            this.f.Text = "F";
-            this.f.UseVisualStyleBackColor = false;
-            // 
-            // d
-            // 
-            this.d.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.d.Location = new System.Drawing.Point(337, 142);
-            this.d.Name = "d";
-            this.d.Size = new System.Drawing.Size(161, 133);
-            this.d.TabIndex = 8;
-            this.d.Text = "D";
-            this.d.UseVisualStyleBackColor = false;
-            // 
-            // s
-            // 
-            this.s.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.s.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.s.Location = new System.Drawing.Point(170, 142);
-            this.s.Name = "s";
-            this.s.Size = new System.Drawing.Size(161, 133);
-            this.s.TabIndex = 7;
-            this.s.Text = "S";
-            this.s.UseVisualStyleBackColor = false;
-            // 
-            // a
-            // 
-            this.a.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.a.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.a.Location = new System.Drawing.Point(3, 142);
-            this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(161, 133);
-            this.a.TabIndex = 6;
-            this.a.Text = "A";
-            this.a.UseVisualStyleBackColor = false;
-            // 
-            // y
-            // 
-            this.y.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.y.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.y.Location = new System.Drawing.Point(838, 3);
-            this.y.Name = "y";
-            this.y.Size = new System.Drawing.Size(164, 133);
-            this.y.TabIndex = 5;
-            this.y.Text = "Y";
-            this.y.UseVisualStyleBackColor = false;
-            // 
-            // t
-            // 
-            this.t.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.t.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.t.Location = new System.Drawing.Point(671, 3);
-            this.t.Name = "t";
-            this.t.Size = new System.Drawing.Size(161, 133);
-            this.t.TabIndex = 4;
-            this.t.Text = "T";
-            this.t.UseVisualStyleBackColor = false;
-            // 
-            // r
-            // 
-            this.r.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.r.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.r.Location = new System.Drawing.Point(504, 3);
-            this.r.Name = "r";
-            this.r.Size = new System.Drawing.Size(161, 133);
-            this.r.TabIndex = 3;
-            this.r.Text = "R";
-            this.r.UseVisualStyleBackColor = false;
-            // 
-            // e
-            // 
-            this.e.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.e.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.e.Location = new System.Drawing.Point(337, 3);
-            this.e.Name = "e";
-            this.e.Size = new System.Drawing.Size(161, 133);
-            this.e.TabIndex = 2;
-            this.e.Text = "E";
-            this.e.UseVisualStyleBackColor = false;
+            this.q.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.q.Image = global::Project.Properties.Resources.step_default;
+            this.q.Location = new System.Drawing.Point(3, 3);
+            this.q.Name = "q";
+            this.q.Size = new System.Drawing.Size(161, 133);
+            this.q.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.q.TabIndex = 18;
+            this.q.TabStop = false;
             // 
             // w
             // 
-            this.w.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.w.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.w.Image = global::Project.Properties.Resources.step_default;
             this.w.Location = new System.Drawing.Point(170, 3);
             this.w.Name = "w";
             this.w.Size = new System.Drawing.Size(161, 133);
-            this.w.TabIndex = 1;
-            this.w.Text = "W";
-            this.w.UseVisualStyleBackColor = false;
+            this.w.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.w.TabIndex = 19;
+            this.w.TabStop = false;
             // 
-            // pictureBox1
+            // e
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Project.Properties.Resources.step_default;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 133);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
+            this.e.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.e.Image = global::Project.Properties.Resources.step_default;
+            this.e.Location = new System.Drawing.Point(337, 3);
+            this.e.Name = "e";
+            this.e.Size = new System.Drawing.Size(161, 133);
+            this.e.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.e.TabIndex = 20;
+            this.e.TabStop = false;
+            // 
+            // r
+            // 
+            this.r.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.r.Image = global::Project.Properties.Resources.step_default;
+            this.r.Location = new System.Drawing.Point(504, 3);
+            this.r.Name = "r";
+            this.r.Size = new System.Drawing.Size(161, 133);
+            this.r.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.r.TabIndex = 21;
+            this.r.TabStop = false;
+            // 
+            // t
+            // 
+            this.t.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.t.Image = global::Project.Properties.Resources.step_default;
+            this.t.Location = new System.Drawing.Point(671, 3);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(161, 133);
+            this.t.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.t.TabIndex = 22;
+            this.t.TabStop = false;
+            // 
+            // y
+            // 
+            this.y.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.y.Image = global::Project.Properties.Resources.step_default;
+            this.y.Location = new System.Drawing.Point(838, 3);
+            this.y.Name = "y";
+            this.y.Size = new System.Drawing.Size(164, 133);
+            this.y.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.y.TabIndex = 23;
+            this.y.TabStop = false;
+            // 
+            // a
+            // 
+            this.a.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.a.Image = global::Project.Properties.Resources.step_default;
+            this.a.Location = new System.Drawing.Point(3, 142);
+            this.a.Name = "a";
+            this.a.Size = new System.Drawing.Size(161, 133);
+            this.a.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.a.TabIndex = 24;
+            this.a.TabStop = false;
+            // 
+            // s
+            // 
+            this.s.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.s.Image = global::Project.Properties.Resources.step_default;
+            this.s.Location = new System.Drawing.Point(170, 142);
+            this.s.Name = "s";
+            this.s.Size = new System.Drawing.Size(161, 133);
+            this.s.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.s.TabIndex = 25;
+            this.s.TabStop = false;
+            // 
+            // d
+            // 
+            this.d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.d.Image = global::Project.Properties.Resources.step_default;
+            this.d.Location = new System.Drawing.Point(337, 142);
+            this.d.Name = "d";
+            this.d.Size = new System.Drawing.Size(161, 133);
+            this.d.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.d.TabIndex = 26;
+            this.d.TabStop = false;
+            // 
+            // f
+            // 
+            this.f.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.f.Image = global::Project.Properties.Resources.step_default;
+            this.f.Location = new System.Drawing.Point(504, 142);
+            this.f.Name = "f";
+            this.f.Size = new System.Drawing.Size(161, 133);
+            this.f.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.f.TabIndex = 27;
+            this.f.TabStop = false;
+            // 
+            // g
+            // 
+            this.g.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.g.Image = global::Project.Properties.Resources.step_default;
+            this.g.Location = new System.Drawing.Point(671, 142);
+            this.g.Name = "g";
+            this.g.Size = new System.Drawing.Size(161, 133);
+            this.g.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.g.TabIndex = 28;
+            this.g.TabStop = false;
+            // 
+            // h
+            // 
+            this.h.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.h.Image = global::Project.Properties.Resources.step_default;
+            this.h.Location = new System.Drawing.Point(838, 142);
+            this.h.Name = "h";
+            this.h.Size = new System.Drawing.Size(164, 133);
+            this.h.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.h.TabIndex = 29;
+            this.h.TabStop = false;
+            // 
+            // z
+            // 
+            this.z.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.z.Image = global::Project.Properties.Resources.step_default;
+            this.z.Location = new System.Drawing.Point(3, 281);
+            this.z.Name = "z";
+            this.z.Size = new System.Drawing.Size(161, 133);
+            this.z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.z.TabIndex = 30;
+            this.z.TabStop = false;
+            // 
+            // x
+            // 
+            this.x.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.x.Image = global::Project.Properties.Resources.step_default;
+            this.x.Location = new System.Drawing.Point(170, 281);
+            this.x.Name = "x";
+            this.x.Size = new System.Drawing.Size(161, 133);
+            this.x.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.x.TabIndex = 31;
+            this.x.TabStop = false;
+            // 
+            // c
+            // 
+            this.c.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.c.Image = global::Project.Properties.Resources.step_default;
+            this.c.Location = new System.Drawing.Point(337, 281);
+            this.c.Name = "c";
+            this.c.Size = new System.Drawing.Size(161, 133);
+            this.c.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.c.TabIndex = 32;
+            this.c.TabStop = false;
+            // 
+            // v
+            // 
+            this.v.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.v.Image = global::Project.Properties.Resources.step_default;
+            this.v.Location = new System.Drawing.Point(504, 281);
+            this.v.Name = "v";
+            this.v.Size = new System.Drawing.Size(161, 133);
+            this.v.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.v.TabIndex = 33;
+            this.v.TabStop = false;
+            // 
+            // b
+            // 
+            this.b.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.b.Image = global::Project.Properties.Resources.step_default;
+            this.b.Location = new System.Drawing.Point(671, 281);
+            this.b.Name = "b";
+            this.b.Size = new System.Drawing.Size(161, 133);
+            this.b.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.b.TabIndex = 34;
+            this.b.TabStop = false;
+            // 
+            // n
+            // 
+            this.n.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.n.Image = global::Project.Properties.Resources.step_default;
+            this.n.Location = new System.Drawing.Point(838, 281);
+            this.n.Name = "n";
+            this.n.Size = new System.Drawing.Size(164, 133);
+            this.n.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.n.TabIndex = 35;
+            this.n.TabStop = false;
             // 
             // Form1
             // 
@@ -349,7 +366,24 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.q)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.w)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.e)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.y)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.f)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.g)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.x)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.b)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.n)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -360,24 +394,24 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button backtomenu;
-        private System.Windows.Forms.Button n;
-        private System.Windows.Forms.Button b;
-        private System.Windows.Forms.Button v;
-        private System.Windows.Forms.Button c;
-        private System.Windows.Forms.Button x;
-        private System.Windows.Forms.Button z;
-        private System.Windows.Forms.Button h;
-        private System.Windows.Forms.Button g;
-        private System.Windows.Forms.Button f;
-        private System.Windows.Forms.Button d;
-        private System.Windows.Forms.Button s;
-        private System.Windows.Forms.Button a;
-        private System.Windows.Forms.Button y;
-        private System.Windows.Forms.Button t;
-        private System.Windows.Forms.Button r;
-        private System.Windows.Forms.Button e;
-        private System.Windows.Forms.Button w;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox q;
+        private System.Windows.Forms.PictureBox n;
+        private System.Windows.Forms.PictureBox b;
+        private System.Windows.Forms.PictureBox v;
+        private System.Windows.Forms.PictureBox c;
+        private System.Windows.Forms.PictureBox x;
+        private System.Windows.Forms.PictureBox z;
+        private System.Windows.Forms.PictureBox h;
+        private System.Windows.Forms.PictureBox g;
+        private System.Windows.Forms.PictureBox f;
+        private System.Windows.Forms.PictureBox d;
+        private System.Windows.Forms.PictureBox s;
+        private System.Windows.Forms.PictureBox a;
+        private System.Windows.Forms.PictureBox y;
+        private System.Windows.Forms.PictureBox t;
+        private System.Windows.Forms.PictureBox r;
+        private System.Windows.Forms.PictureBox e;
+        private System.Windows.Forms.PictureBox w;
     }
 }
 
