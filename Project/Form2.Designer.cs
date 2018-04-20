@@ -98,7 +98,8 @@
             this.ClientSize = new System.Drawing.Size(1052, 520);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DanceBox";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
