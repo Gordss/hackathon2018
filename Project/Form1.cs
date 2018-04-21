@@ -14,7 +14,7 @@ namespace Project
     public partial class Form1 : Form
     {
 
-        public char[] tanc = "qwertynbvcx".ToCharArray();
+        public char[] tanc = "12345asfxv".ToCharArray();
         public int i = 0;
 
         public Form1()
@@ -29,7 +29,17 @@ namespace Project
             if(ev.KeyChar.ToString() == tanc[i].ToString())
                 rightMove = true;
 
-            PictureBox move = this.Controls.Find(ev.KeyChar.ToString(), true).FirstOrDefault() as PictureBox;
+            string temp = ev.KeyChar.ToString();
+
+            switch (temp)
+            {
+                case "1" : temp = "one"; break;
+                case "2" : temp = "two"; break;
+                case "3" : temp = "three"; break;
+                case "4" : temp = "four"; break;
+                case "5" : temp = "five"; break;
+            }
+            PictureBox move = this.Controls.Find(temp, true).FirstOrDefault() as PictureBox;
             if (move == null)
                 return;
 

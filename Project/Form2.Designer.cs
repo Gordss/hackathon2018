@@ -35,18 +35,14 @@
             this.add = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.exit = new System.Windows.Forms.Button();
+            this.Form_Title = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.options = new System.Windows.Forms.Button();
             this.start = new System.Windows.Forms.Button();
             this.dance = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-=======
-            this.Form_Title = new System.Windows.Forms.Label();
->>>>>>> f6f2fcba190c7c7b685f85dbd90cdfa928df6edf
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -158,7 +154,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel3.Controls.Add(this.button1, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.exit, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.Form_Title, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
@@ -170,18 +166,39 @@
             this.tableLayoutPanel3.TabIndex = 4;
             this.tableLayoutPanel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
             // 
-            // button1
+            // exit
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(1001, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(48, 20);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = false;
+            this.exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(48)))), ((int)(((byte)(49)))));
+            this.exit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.exit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(48)))), ((int)(((byte)(49)))));
+            this.exit.FlatAppearance.BorderSize = 0;
+            this.exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
+            this.exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(57)))), ((int)(((byte)(43)))));
+            this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(190)))), ((int)(((byte)(195)))));
+            this.exit.Location = new System.Drawing.Point(998, 0);
+            this.exit.Margin = new System.Windows.Forms.Padding(0);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(54, 26);
+            this.exit.TabIndex = 0;
+            this.exit.Text = "X";
+            this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
-<<<<<<< HEAD
+            // Form_Title
+            // 
+            this.Form_Title.AutoSize = true;
+            this.Form_Title.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Form_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Form_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(190)))), ((int)(((byte)(195)))));
+            this.Form_Title.Location = new System.Drawing.Point(55, 0);
+            this.Form_Title.Name = "Form_Title";
+            this.Form_Title.Size = new System.Drawing.Size(940, 26);
+            this.Form_Title.TabIndex = 1;
+            this.Form_Title.Text = "DanceBox";
+            this.Form_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 3;
@@ -189,8 +206,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel4.Controls.Add(this.exit, 2, 6);
-            this.tableLayoutPanel4.Controls.Add(this.options, 1, 6);
+            this.tableLayoutPanel4.Controls.Add(this.options, 2, 6);
             this.tableLayoutPanel4.Controls.Add(this.start, 0, 6);
             this.tableLayoutPanel4.Controls.Add(this.dance, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label2, 0, 3);
@@ -211,25 +227,13 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(520, 488);
             this.tableLayoutPanel4.TabIndex = 5;
             // 
-            // exit
-            // 
-            this.exit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.exit.Location = new System.Drawing.Point(356, 424);
-            this.exit.Margin = new System.Windows.Forms.Padding(10);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(154, 28);
-            this.exit.TabIndex = 2;
-            this.exit.Text = "Exit";
-            this.exit.UseVisualStyleBackColor = true;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
             // options
             // 
             this.options.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.options.Location = new System.Drawing.Point(183, 424);
+            this.options.Location = new System.Drawing.Point(356, 424);
             this.options.Margin = new System.Windows.Forms.Padding(10);
             this.options.Name = "options";
-            this.options.Size = new System.Drawing.Size(153, 28);
+            this.options.Size = new System.Drawing.Size(154, 28);
             this.options.TabIndex = 1;
             this.options.Text = "Options";
             this.options.UseVisualStyleBackColor = true;
@@ -287,23 +291,6 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Steps :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-=======
-            // Form_Title
-            // 
-            this.Form_Title.AutoSize = true;
-            this.Form_Title.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Form_Title.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Form_Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Form_Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(190)))), ((int)(((byte)(195)))));
-            this.Form_Title.Location = new System.Drawing.Point(52, 0);
-            this.Form_Title.Margin = new System.Windows.Forms.Padding(0);
-            this.Form_Title.Name = "Form_Title";
-            this.Form_Title.Size = new System.Drawing.Size(946, 26);
-            this.Form_Title.TabIndex = 0;
-            this.Form_Title.Text = "DanceBox";
-            this.Form_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Form_Title.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseDown);
->>>>>>> f6f2fcba190c7c7b685f85dbd90cdfa928df6edf
             // 
             // Form2
             // 
@@ -320,12 +307,9 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-<<<<<<< HEAD
+            this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-=======
-            this.tableLayoutPanel3.PerformLayout();
->>>>>>> f6f2fcba190c7c7b685f85dbd90cdfa928df6edf
             this.ResumeLayout(false);
 
         }
@@ -334,7 +318,6 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button options;
-        private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button Edit;
@@ -342,14 +325,11 @@
         private System.Windows.Forms.Button add;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Button button1;
-<<<<<<< HEAD
+        private System.Windows.Forms.Button exit;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Label dance;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-=======
         private System.Windows.Forms.Label Form_Title;
->>>>>>> f6f2fcba190c7c7b685f85dbd90cdfa928df6edf
     }
 }

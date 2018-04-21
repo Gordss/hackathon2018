@@ -30,10 +30,7 @@ namespace Project
 
         private void exit_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Do you really want to exit?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
-            {
-                Application.Exit();
-            }
+            Application.Exit();
         }
 
         private void start_Click(object sender, EventArgs e)
