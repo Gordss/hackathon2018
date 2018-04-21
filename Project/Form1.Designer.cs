@@ -30,11 +30,13 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.x = new System.Windows.Forms.PictureBox();
-            this.z = new System.Windows.Forms.PictureBox();
-            this.c = new System.Windows.Forms.PictureBox();
+            this.n = new System.Windows.Forms.PictureBox();
             this.b = new System.Windows.Forms.PictureBox();
             this.v = new System.Windows.Forms.PictureBox();
+            this.c = new System.Windows.Forms.PictureBox();
+            this.x = new System.Windows.Forms.PictureBox();
+            this.z = new System.Windows.Forms.PictureBox();
+            this.h = new System.Windows.Forms.PictureBox();
             this.g = new System.Windows.Forms.PictureBox();
             this.f = new System.Windows.Forms.PictureBox();
             this.d = new System.Windows.Forms.PictureBox();
@@ -233,6 +235,7 @@
             this.d.TabStop = false;
             // 
             // s
+<<<<<<< HEAD
             // 
             this.s.Dock = System.Windows.Forms.DockStyle.Fill;
             this.s.Image = global::Project.Properties.Resources.step_default;
@@ -409,6 +412,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DanceBox";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

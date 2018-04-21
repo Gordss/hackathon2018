@@ -16,6 +16,7 @@ namespace Project
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
+        public static string danceInput;
 
         [DllImportAttribute("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
@@ -35,6 +36,7 @@ namespace Project
 
         private void start_Click(object sender, EventArgs e)
         {
+            danceInput = listBox1.SelectedItem.ToString();
             Form1 main = new Form1();
             this.Hide();
             main.ShowDialog();
