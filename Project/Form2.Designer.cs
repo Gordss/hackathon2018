@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.start = new System.Windows.Forms.Button();
-            this.options = new System.Windows.Forms.Button();
-            this.exit = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.Edit = new System.Windows.Forms.Button();
             this.remove = new System.Windows.Forms.Button();
@@ -39,9 +36,17 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.exit = new System.Windows.Forms.Button();
+            this.options = new System.Windows.Forms.Button();
+            this.start = new System.Windows.Forms.Button();
+            this.dance = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -50,11 +55,9 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.start, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.options, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.exit, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 1, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -71,47 +74,12 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1052, 520);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // start
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.start, 2);
-            this.start.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.start.Location = new System.Drawing.Point(529, 29);
-            this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(520, 98);
-            this.start.TabIndex = 0;
-            this.start.Text = "Start";
-            this.start.UseVisualStyleBackColor = true;
-            this.start.Click += new System.EventHandler(this.start_Click);
-            // 
-            // options
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.options, 2);
-            this.options.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.options.Location = new System.Drawing.Point(529, 185);
-            this.options.Name = "options";
-            this.options.Size = new System.Drawing.Size(520, 46);
-            this.options.TabIndex = 1;
-            this.options.Text = "Options";
-            this.options.UseVisualStyleBackColor = true;
-            // 
-            // exit
-            // 
-            this.tableLayoutPanel1.SetColumnSpan(this.exit, 2);
-            this.exit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.exit.Location = new System.Drawing.Point(529, 289);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(520, 46);
-            this.exit.TabIndex = 2;
-            this.exit.Text = "EXIT";
-            this.exit.UseVisualStyleBackColor = true;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.34334F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.34334F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.31332F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.Controls.Add(this.Edit, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.remove, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.add, 0, 1);
@@ -124,16 +92,16 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(520, 488);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // Edit
             // 
             this.Edit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Edit.Location = new System.Drawing.Point(349, 417);
+            this.Edit.Location = new System.Drawing.Point(356, 424);
+            this.Edit.Margin = new System.Windows.Forms.Padding(10);
             this.Edit.Name = "Edit";
-            this.Edit.Size = new System.Drawing.Size(168, 42);
+            this.Edit.Size = new System.Drawing.Size(154, 28);
             this.Edit.TabIndex = 5;
             this.Edit.Text = "Edit";
             this.Edit.UseVisualStyleBackColor = true;
@@ -141,9 +109,10 @@
             // remove
             // 
             this.remove.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.remove.Location = new System.Drawing.Point(176, 417);
+            this.remove.Location = new System.Drawing.Point(183, 424);
+            this.remove.Margin = new System.Windows.Forms.Padding(10);
             this.remove.Name = "remove";
-            this.remove.Size = new System.Drawing.Size(167, 42);
+            this.remove.Size = new System.Drawing.Size(153, 28);
             this.remove.TabIndex = 4;
             this.remove.Text = "Remove";
             this.remove.UseVisualStyleBackColor = true;
@@ -151,9 +120,10 @@
             // add
             // 
             this.add.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.add.Location = new System.Drawing.Point(3, 417);
+            this.add.Location = new System.Drawing.Point(10, 424);
+            this.add.Margin = new System.Windows.Forms.Padding(10);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(167, 42);
+            this.add.Size = new System.Drawing.Size(153, 28);
             this.add.TabIndex = 0;
             this.add.Text = "Add";
             this.add.UseVisualStyleBackColor = true;
@@ -198,6 +168,112 @@
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 3;
+            this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel4, 2);
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel4.Controls.Add(this.exit, 2, 6);
+            this.tableLayoutPanel4.Controls.Add(this.options, 1, 6);
+            this.tableLayoutPanel4.Controls.Add(this.start, 0, 6);
+            this.tableLayoutPanel4.Controls.Add(this.dance, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.label2, 0, 3);
+            this.tableLayoutPanel4.Controls.Add(this.label3, 0, 5);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(529, 29);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 8;
+            this.tableLayoutPanel1.SetRowSpan(this.tableLayoutPanel4, 7);
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.6F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.4F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(520, 488);
+            this.tableLayoutPanel4.TabIndex = 5;
+            // 
+            // exit
+            // 
+            this.exit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.exit.Location = new System.Drawing.Point(356, 424);
+            this.exit.Margin = new System.Windows.Forms.Padding(10);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(154, 28);
+            this.exit.TabIndex = 2;
+            this.exit.Text = "Exit";
+            this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
+            // options
+            // 
+            this.options.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.options.Location = new System.Drawing.Point(183, 424);
+            this.options.Margin = new System.Windows.Forms.Padding(10);
+            this.options.Name = "options";
+            this.options.Size = new System.Drawing.Size(153, 28);
+            this.options.TabIndex = 1;
+            this.options.Text = "Options";
+            this.options.UseVisualStyleBackColor = true;
+            // 
+            // start
+            // 
+            this.start.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.start.Location = new System.Drawing.Point(10, 424);
+            this.start.Margin = new System.Windows.Forms.Padding(10);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(153, 28);
+            this.start.TabIndex = 0;
+            this.start.Text = "Start";
+            this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.start_Click);
+            // 
+            // dance
+            // 
+            this.dance.AutoSize = true;
+            this.dance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel4.SetColumnSpan(this.dance, 3);
+            this.dance.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dance.Location = new System.Drawing.Point(10, 86);
+            this.dance.Margin = new System.Windows.Forms.Padding(10);
+            this.dance.Name = "dance";
+            this.dance.Size = new System.Drawing.Size(500, 28);
+            this.dance.TabIndex = 3;
+            this.dance.Text = "Dance Name :";
+            this.dance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel4.SetColumnSpan(this.label2, 3);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Location = new System.Drawing.Point(10, 231);
+            this.label2.Margin = new System.Windows.Forms.Padding(10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(500, 28);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Difficulty :";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel4.SetColumnSpan(this.label3, 3);
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Location = new System.Drawing.Point(10, 376);
+            this.label3.Margin = new System.Windows.Forms.Padding(10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(500, 28);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Steps :";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -211,6 +287,8 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -228,5 +306,9 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.Label dance;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

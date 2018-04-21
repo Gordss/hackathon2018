@@ -30,47 +30,47 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.backtomenu = new System.Windows.Forms.Button();
+            this.n = new System.Windows.Forms.PictureBox();
+            this.b = new System.Windows.Forms.PictureBox();
+            this.v = new System.Windows.Forms.PictureBox();
+            this.c = new System.Windows.Forms.PictureBox();
+            this.x = new System.Windows.Forms.PictureBox();
+            this.z = new System.Windows.Forms.PictureBox();
+            this.h = new System.Windows.Forms.PictureBox();
+            this.g = new System.Windows.Forms.PictureBox();
+            this.f = new System.Windows.Forms.PictureBox();
+            this.d = new System.Windows.Forms.PictureBox();
+            this.s = new System.Windows.Forms.PictureBox();
+            this.a = new System.Windows.Forms.PictureBox();
+            this.y = new System.Windows.Forms.PictureBox();
+            this.t = new System.Windows.Forms.PictureBox();
+            this.r = new System.Windows.Forms.PictureBox();
+            this.e = new System.Windows.Forms.PictureBox();
             this.q = new System.Windows.Forms.PictureBox();
             this.w = new System.Windows.Forms.PictureBox();
-            this.e = new System.Windows.Forms.PictureBox();
-            this.r = new System.Windows.Forms.PictureBox();
-            this.t = new System.Windows.Forms.PictureBox();
-            this.y = new System.Windows.Forms.PictureBox();
-            this.a = new System.Windows.Forms.PictureBox();
-            this.s = new System.Windows.Forms.PictureBox();
-            this.d = new System.Windows.Forms.PictureBox();
-            this.f = new System.Windows.Forms.PictureBox();
-            this.g = new System.Windows.Forms.PictureBox();
-            this.h = new System.Windows.Forms.PictureBox();
-            this.z = new System.Windows.Forms.PictureBox();
-            this.x = new System.Windows.Forms.PictureBox();
-            this.c = new System.Windows.Forms.PictureBox();
-            this.v = new System.Windows.Forms.PictureBox();
-            this.b = new System.Windows.Forms.PictureBox();
-            this.n = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.backtomenu = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.n)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.b)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.x)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.g)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.f)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.y)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.e)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.q)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.w)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.e)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.r)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.y)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.a)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.f)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.g)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.h)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.x)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.v)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.b)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.n)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -130,6 +130,222 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1005, 415);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // n
+            // 
+            this.n.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.n.Image = global::Project.Properties.Resources.step_default;
+            this.n.Location = new System.Drawing.Point(838, 280);
+            this.n.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.n.Name = "n";
+            this.n.Size = new System.Drawing.Size(164, 131);
+            this.n.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.n.TabIndex = 35;
+            this.n.TabStop = false;
+            // 
+            // b
+            // 
+            this.b.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.b.Image = global::Project.Properties.Resources.step_default;
+            this.b.Location = new System.Drawing.Point(671, 280);
+            this.b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.b.Name = "b";
+            this.b.Size = new System.Drawing.Size(161, 131);
+            this.b.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.b.TabIndex = 34;
+            this.b.TabStop = false;
+            // 
+            // v
+            // 
+            this.v.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.v.Image = global::Project.Properties.Resources.step_default;
+            this.v.Location = new System.Drawing.Point(504, 280);
+            this.v.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.v.Name = "v";
+            this.v.Size = new System.Drawing.Size(161, 131);
+            this.v.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.v.TabIndex = 33;
+            this.v.TabStop = false;
+            // 
+            // c
+            // 
+            this.c.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.c.Image = global::Project.Properties.Resources.step_default;
+            this.c.Location = new System.Drawing.Point(337, 280);
+            this.c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.c.Name = "c";
+            this.c.Size = new System.Drawing.Size(161, 131);
+            this.c.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.c.TabIndex = 32;
+            this.c.TabStop = false;
+            // 
+            // x
+            // 
+            this.x.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.x.Image = global::Project.Properties.Resources.step_default;
+            this.x.Location = new System.Drawing.Point(170, 280);
+            this.x.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.x.Name = "x";
+            this.x.Size = new System.Drawing.Size(161, 131);
+            this.x.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.x.TabIndex = 31;
+            this.x.TabStop = false;
+            // 
+            // z
+            // 
+            this.z.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.z.Image = global::Project.Properties.Resources.step_default;
+            this.z.Location = new System.Drawing.Point(3, 280);
+            this.z.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.z.Name = "z";
+            this.z.Size = new System.Drawing.Size(161, 131);
+            this.z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.z.TabIndex = 30;
+            this.z.TabStop = false;
+            // 
+            // h
+            // 
+            this.h.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.h.Image = global::Project.Properties.Resources.step_default;
+            this.h.Location = new System.Drawing.Point(838, 142);
+            this.h.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.h.Name = "h";
+            this.h.Size = new System.Drawing.Size(164, 130);
+            this.h.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.h.TabIndex = 29;
+            this.h.TabStop = false;
+            // 
+            // g
+            // 
+            this.g.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.g.Image = global::Project.Properties.Resources.step_default;
+            this.g.Location = new System.Drawing.Point(671, 142);
+            this.g.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.g.Name = "g";
+            this.g.Size = new System.Drawing.Size(161, 130);
+            this.g.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.g.TabIndex = 28;
+            this.g.TabStop = false;
+            // 
+            // f
+            // 
+            this.f.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.f.Image = global::Project.Properties.Resources.step_default;
+            this.f.Location = new System.Drawing.Point(504, 142);
+            this.f.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.f.Name = "f";
+            this.f.Size = new System.Drawing.Size(161, 130);
+            this.f.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.f.TabIndex = 27;
+            this.f.TabStop = false;
+            // 
+            // d
+            // 
+            this.d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.d.Image = global::Project.Properties.Resources.step_default;
+            this.d.Location = new System.Drawing.Point(337, 142);
+            this.d.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.d.Name = "d";
+            this.d.Size = new System.Drawing.Size(161, 130);
+            this.d.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.d.TabIndex = 26;
+            this.d.TabStop = false;
+            // 
+            // s
+            // 
+            this.s.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.s.Image = global::Project.Properties.Resources.step_default;
+            this.s.Location = new System.Drawing.Point(170, 142);
+            this.s.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.s.Name = "s";
+            this.s.Size = new System.Drawing.Size(161, 130);
+            this.s.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.s.TabIndex = 25;
+            this.s.TabStop = false;
+            // 
+            // a
+            // 
+            this.a.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.a.Image = global::Project.Properties.Resources.step_default;
+            this.a.Location = new System.Drawing.Point(3, 142);
+            this.a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.a.Name = "a";
+            this.a.Size = new System.Drawing.Size(161, 130);
+            this.a.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.a.TabIndex = 24;
+            this.a.TabStop = false;
+            // 
+            // y
+            // 
+            this.y.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.y.Image = global::Project.Properties.Resources.step_default;
+            this.y.Location = new System.Drawing.Point(838, 4);
+            this.y.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.y.Name = "y";
+            this.y.Size = new System.Drawing.Size(164, 130);
+            this.y.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.y.TabIndex = 23;
+            this.y.TabStop = false;
+            // 
+            // t
+            // 
+            this.t.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.t.Image = global::Project.Properties.Resources.step_default;
+            this.t.Location = new System.Drawing.Point(671, 4);
+            this.t.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(161, 130);
+            this.t.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.t.TabIndex = 22;
+            this.t.TabStop = false;
+            // 
+            // r
+            // 
+            this.r.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.r.Image = global::Project.Properties.Resources.step_default;
+            this.r.Location = new System.Drawing.Point(504, 4);
+            this.r.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.r.Name = "r";
+            this.r.Size = new System.Drawing.Size(161, 130);
+            this.r.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.r.TabIndex = 21;
+            this.r.TabStop = false;
+            // 
+            // e
+            // 
+            this.e.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.e.Image = global::Project.Properties.Resources.step_default;
+            this.e.Location = new System.Drawing.Point(337, 4);
+            this.e.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.e.Name = "e";
+            this.e.Size = new System.Drawing.Size(161, 130);
+            this.e.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.e.TabIndex = 20;
+            this.e.TabStop = false;
+            // 
+            // q
+            // 
+            this.q.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.q.Image = global::Project.Properties.Resources.step_default;
+            this.q.Location = new System.Drawing.Point(3, 4);
+            this.q.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.q.Name = "q";
+            this.q.Size = new System.Drawing.Size(161, 130);
+            this.q.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.q.TabIndex = 18;
+            this.q.TabStop = false;
+            // 
+            // w
+            // 
+            this.w.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.w.Image = global::Project.Properties.Resources.step_default;
+            this.w.Location = new System.Drawing.Point(170, 4);
+            this.w.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.w.Name = "w";
+            this.w.Size = new System.Drawing.Size(161, 130);
+            this.w.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.w.TabIndex = 19;
+            this.w.TabStop = false;
+            // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 2;
@@ -159,222 +375,6 @@
             this.backtomenu.UseVisualStyleBackColor = false;
             this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
-            // q
-            // 
-            this.q.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.q.Image = global::Project.Properties.Resources.step_default;
-            this.q.Location = new System.Drawing.Point(3, 4);
-            this.q.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.q.Name = "q";
-            this.q.Size = new System.Drawing.Size(161, 130);
-            this.q.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.q.TabIndex = 18;
-            this.q.TabStop = false;
-            // 
-            // w
-            // 
-            this.w.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.w.Image = global::Project.Properties.Resources.step_default;
-            this.w.Location = new System.Drawing.Point(170, 4);
-            this.w.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.w.Name = "w";
-            this.w.Size = new System.Drawing.Size(161, 130);
-            this.w.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.w.TabIndex = 19;
-            this.w.TabStop = false;
-            // 
-            // e
-            // 
-            this.e.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.e.Image = global::Project.Properties.Resources.step_default;
-            this.e.Location = new System.Drawing.Point(337, 4);
-            this.e.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.e.Name = "e";
-            this.e.Size = new System.Drawing.Size(161, 130);
-            this.e.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.e.TabIndex = 20;
-            this.e.TabStop = false;
-            // 
-            // r
-            // 
-            this.r.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.r.Image = global::Project.Properties.Resources.step_default;
-            this.r.Location = new System.Drawing.Point(504, 4);
-            this.r.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.r.Name = "r";
-            this.r.Size = new System.Drawing.Size(161, 130);
-            this.r.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.r.TabIndex = 21;
-            this.r.TabStop = false;
-            // 
-            // t
-            // 
-            this.t.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.t.Image = global::Project.Properties.Resources.step_default;
-            this.t.Location = new System.Drawing.Point(671, 4);
-            this.t.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.t.Name = "t";
-            this.t.Size = new System.Drawing.Size(161, 130);
-            this.t.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.t.TabIndex = 22;
-            this.t.TabStop = false;
-            // 
-            // y
-            // 
-            this.y.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.y.Image = global::Project.Properties.Resources.step_default;
-            this.y.Location = new System.Drawing.Point(838, 4);
-            this.y.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.y.Name = "y";
-            this.y.Size = new System.Drawing.Size(164, 130);
-            this.y.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.y.TabIndex = 23;
-            this.y.TabStop = false;
-            // 
-            // a
-            // 
-            this.a.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.a.Image = global::Project.Properties.Resources.step_default;
-            this.a.Location = new System.Drawing.Point(3, 142);
-            this.a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(161, 130);
-            this.a.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.a.TabIndex = 24;
-            this.a.TabStop = false;
-            // 
-            // s
-            // 
-            this.s.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.s.Image = global::Project.Properties.Resources.step_default;
-            this.s.Location = new System.Drawing.Point(170, 142);
-            this.s.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.s.Name = "s";
-            this.s.Size = new System.Drawing.Size(161, 130);
-            this.s.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.s.TabIndex = 25;
-            this.s.TabStop = false;
-            // 
-            // d
-            // 
-            this.d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.d.Image = global::Project.Properties.Resources.step_default;
-            this.d.Location = new System.Drawing.Point(337, 142);
-            this.d.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.d.Name = "d";
-            this.d.Size = new System.Drawing.Size(161, 130);
-            this.d.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.d.TabIndex = 26;
-            this.d.TabStop = false;
-            // 
-            // f
-            // 
-            this.f.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f.Image = global::Project.Properties.Resources.step_default;
-            this.f.Location = new System.Drawing.Point(504, 142);
-            this.f.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.f.Name = "f";
-            this.f.Size = new System.Drawing.Size(161, 130);
-            this.f.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.f.TabIndex = 27;
-            this.f.TabStop = false;
-            // 
-            // g
-            // 
-            this.g.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.g.Image = global::Project.Properties.Resources.step_default;
-            this.g.Location = new System.Drawing.Point(671, 142);
-            this.g.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.g.Name = "g";
-            this.g.Size = new System.Drawing.Size(161, 130);
-            this.g.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.g.TabIndex = 28;
-            this.g.TabStop = false;
-            // 
-            // h
-            // 
-            this.h.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.h.Image = global::Project.Properties.Resources.step_default;
-            this.h.Location = new System.Drawing.Point(838, 142);
-            this.h.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.h.Name = "h";
-            this.h.Size = new System.Drawing.Size(164, 130);
-            this.h.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.h.TabIndex = 29;
-            this.h.TabStop = false;
-            // 
-            // z
-            // 
-            this.z.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.z.Image = global::Project.Properties.Resources.step_default;
-            this.z.Location = new System.Drawing.Point(3, 280);
-            this.z.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.z.Name = "z";
-            this.z.Size = new System.Drawing.Size(161, 131);
-            this.z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.z.TabIndex = 30;
-            this.z.TabStop = false;
-            // 
-            // x
-            // 
-            this.x.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.x.Image = global::Project.Properties.Resources.step_default;
-            this.x.Location = new System.Drawing.Point(170, 280);
-            this.x.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(161, 131);
-            this.x.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.x.TabIndex = 31;
-            this.x.TabStop = false;
-            // 
-            // c
-            // 
-            this.c.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.c.Image = global::Project.Properties.Resources.step_default;
-            this.c.Location = new System.Drawing.Point(337, 280);
-            this.c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(161, 131);
-            this.c.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.c.TabIndex = 32;
-            this.c.TabStop = false;
-            // 
-            // v
-            // 
-            this.v.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.v.Image = global::Project.Properties.Resources.step_default;
-            this.v.Location = new System.Drawing.Point(504, 280);
-            this.v.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.v.Name = "v";
-            this.v.Size = new System.Drawing.Size(161, 131);
-            this.v.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.v.TabIndex = 33;
-            this.v.TabStop = false;
-            // 
-            // b
-            // 
-            this.b.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.b.Image = global::Project.Properties.Resources.step_default;
-            this.b.Location = new System.Drawing.Point(671, 280);
-            this.b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(161, 131);
-            this.b.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.b.TabIndex = 34;
-            this.b.TabStop = false;
-            // 
-            // n
-            // 
-            this.n.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.n.Image = global::Project.Properties.Resources.step_default;
-            this.n.Location = new System.Drawing.Point(838, 280);
-            this.n.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.n.Name = "n";
-            this.n.Size = new System.Drawing.Size(164, 131);
-            this.n.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.n.TabIndex = 35;
-            this.n.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -389,25 +389,25 @@
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.n)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.b)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.x)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.h)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.g)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.f)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.y)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.t)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.r)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.e)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.q)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.w)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.e)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.r)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.t)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.y)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.a)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.f)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.g)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.h)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.x)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.v)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.b)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.n)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
