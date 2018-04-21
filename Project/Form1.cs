@@ -1,11 +1,14 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,7 +17,8 @@ namespace Project
     public partial class Form1 : Form
     {
 
-        public char[] tanc = "qwertynbvcx".ToCharArray();
+        public char[] tanc;
+        public Dance danceSelected;
         public int i = 0;
 
         public Form1()
@@ -39,15 +43,30 @@ namespace Project
                 move.Image = Project.Properties.Resources.step_false;
             i++;
             if (i == tanc.Length)
-                i = 0;
+            {
+                Thread.Sleep(2000);
+                Form2 main = new Form2();
+                this.Hide();
+                main.ShowDialog();
+                this.Close();
+            }
         }
 
-        private void backtomenu_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Form2 menu = new Form2();
-            this.Hide();
-            menu.ShowDialog();
-            this.Close();
+            // deserialize JSON directly from a file
+            using (StreamReader file = File.OpenText(@"D:\dances.json"))
+            {
+                var raw = file.ReadToEnd();
+                var dance = JsonConvert.DeserializeObject<List<Dance>>(raw);
+                foreach(var item in dance)
+                {
+                    if (item.name == Form2.danceInput)
+                        danceSelected = item;
+                }
+                tanc = danceSelected.stepString.ToCharArray();
+                Debug.WriteLine(dance);
+            }
         }
     }
 }
