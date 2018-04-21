@@ -30,11 +30,11 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.b = new System.Windows.Forms.PictureBox();
-            this.v = new System.Windows.Forms.PictureBox();
-            this.c = new System.Windows.Forms.PictureBox();
             this.x = new System.Windows.Forms.PictureBox();
             this.z = new System.Windows.Forms.PictureBox();
+            this.c = new System.Windows.Forms.PictureBox();
+            this.b = new System.Windows.Forms.PictureBox();
+            this.v = new System.Windows.Forms.PictureBox();
             this.g = new System.Windows.Forms.PictureBox();
             this.f = new System.Windows.Forms.PictureBox();
             this.d = new System.Windows.Forms.PictureBox();
@@ -92,6 +92,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1052, 520);
             this.tableLayoutPanel1.TabIndex = 0;
+            this.tableLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             // 
             // tableLayoutPanel2
             // 
@@ -394,7 +395,6 @@
             this.backtomenu.TabIndex = 1;
             this.backtomenu.Text = "X";
             this.backtomenu.UseVisualStyleBackColor = false;
-           // this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // Form1
             // 
