@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +8,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,33 +19,98 @@ namespace Project
     public partial class Form1 : Form
     {
 
-        public char[] tanc;
-        public Dance danceSelected;
         public int i = 0;
+        private string data = Form2.danceSelected.stepString;
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        List<char> newDanceCombo = new List<char>();
 
         public Form1()
         {
             InitializeComponent();
             this.BackColor = Color.FromArgb(52, 73, 94);
+
+            switch(Form2.mode)
+            {
+                case "addDance":
+                    this.KeyPress += new KeyPressEventHandler(this.AddDance);
+                    break;
+                case "beginner":
+                    this.KeyPress += new KeyPressEventHandler(this.DanceBeginner);
+                    DanceNextStep(i-1, data);
+                    break;
+                /*
+                case "advanced":
+                    this.KeyPress += new KeyPressEventHandler(this.DanceAdvanced);
+                    break;
+                */
+            }
         }
 
-        void Form1_KeyPress(object sender, KeyPressEventArgs ev)
+        private void backbutton_click(object sender, EventArgs e)
         {
+            Form2 main = new Form2();
+            this.Hide();
+            main.ShowDialog();
+            this.Close();
+        }
+
+        void DanceNextStep(int currentStep, string data)
+        {
+            PictureBox nextStep = new PictureBox();
+            nextStep = this.Controls.Find("key_" + data.ToCharArray()[currentStep + 1].ToString(), true).FirstOrDefault() as PictureBox;
+            nextStep.Image = Project.Properties.Resources.step_awaiting;
+        }
+
+        void DanceBeginner(object sender, KeyPressEventArgs ev)
+        {
+
             bool rightMove = false;
-            if(ev.KeyChar.ToString() == tanc[i].ToString())
-                rightMove = true;
+            string key = ev.KeyChar.ToString();
+            PictureBox move;
 
-            string temp = ev.KeyChar.ToString();
-
-            switch (temp)
+            if (i == data.Length - 1)
             {
-                case "1" : temp = "one"; break;
-                case "2" : temp = "two"; break;
-                case "3" : temp = "three"; break;
-                case "4" : temp = "four"; break;
-                case "5" : temp = "five"; break;
+
+                if (key == data.ToCharArray()[i].ToString())
+                {
+                    move = this.Controls.Find("key_" + key, true).FirstOrDefault() as PictureBox;
+                    rightMove = true;
+                }
+                else
+                    move = this.Controls.Find("key_" + data.ToCharArray()[i].ToString(), true).FirstOrDefault() as PictureBox;
+
+                if (move == null)
+                    return;
+
+                if (rightMove)
+                    move.Image = Project.Properties.Resources.step_true;
+                else
+                    move.Image = Project.Properties.Resources.step_false;
+
+                Form2 main = new Form2();
+                this.Hide();
+                main.ShowDialog();
+                this.Close();
+
+                return;
             }
-            PictureBox move = this.Controls.Find(temp, true).FirstOrDefault() as PictureBox;
+
+            DanceNextStep(i, data);
+
+            if (key == data.ToCharArray()[i].ToString())
+            {
+                move = this.Controls.Find("key_" + key, true).FirstOrDefault() as PictureBox;
+                rightMove = true;
+            }
+            else
+                move = this.Controls.Find("key_" + data.ToCharArray()[i].ToString(), true).FirstOrDefault() as PictureBox;
+
             if (move == null)
                 return;
 
@@ -51,31 +118,46 @@ namespace Project
                 move.Image = Project.Properties.Resources.step_true;
             else
                 move.Image = Project.Properties.Resources.step_false;
+
             i++;
-            if (i == tanc.Length)
+        }
+
+        void AddDance(object sender, KeyPressEventArgs ev)
+        {
+            if (ev.KeyChar == '9')
             {
-                Thread.Sleep(2000);
+                Dance newDance = new Dance();
+                newDance.name = Form2.newDanceName;
+                newDance.stepString = string.Join("", newDanceCombo.ToArray());
+                newDance.steps = null;
+
+                Form2.danceList.Add(Form2.newDanceName, JToken.FromObject(newDance));
+                //Form2.danceList.Remove("pesho");
+                Debug.WriteLine(Form2.danceList.ToString());
+
+                if(newDance.stepString.Length != 0)
+                    File.WriteAllText(@"D:\dances.json", Form2.danceList.ToString());
+                
+
                 Form2 main = new Form2();
                 this.Hide();
                 main.ShowDialog();
                 this.Close();
             }
+
+            PictureBox move = this.Controls.Find("key_" + ev.KeyChar.ToString(), true).FirstOrDefault() as PictureBox;
+
+            if (move != null)
+                newDanceCombo.Add(ev.KeyChar);
+
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            // deserialize JSON directly from a file
-            using (StreamReader file = File.OpenText(@"D:\dances.json"))
+            if (e.Button == MouseButtons.Left)
             {
-                var raw = file.ReadToEnd();
-                var dance = JsonConvert.DeserializeObject<List<Dance>>(raw);
-                foreach(var item in dance)
-                {
-                    if (item.name == Form2.danceInput)
-                        danceSelected = item;
-                }
-                tanc = danceSelected.stepString.ToCharArray();
-                Debug.WriteLine(dance);
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
     }
