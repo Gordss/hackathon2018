@@ -30,13 +30,11 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.n = new System.Windows.Forms.PictureBox();
             this.b = new System.Windows.Forms.PictureBox();
             this.v = new System.Windows.Forms.PictureBox();
             this.c = new System.Windows.Forms.PictureBox();
             this.x = new System.Windows.Forms.PictureBox();
             this.z = new System.Windows.Forms.PictureBox();
-            this.h = new System.Windows.Forms.PictureBox();
             this.g = new System.Windows.Forms.PictureBox();
             this.f = new System.Windows.Forms.PictureBox();
             this.d = new System.Windows.Forms.PictureBox();
@@ -235,7 +233,6 @@
             this.d.TabStop = false;
             // 
             // s
-<<<<<<< HEAD
             // 
             this.s.Dock = System.Windows.Forms.DockStyle.Fill;
             this.s.Image = global::Project.Properties.Resources.step_default;
@@ -397,7 +394,7 @@
             this.backtomenu.TabIndex = 1;
             this.backtomenu.Text = "X";
             this.backtomenu.UseVisualStyleBackColor = false;
-            this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
+           // this.backtomenu.Click += new System.EventHandler(this.backtomenu_Click);
             // 
             // Form1
             // 
