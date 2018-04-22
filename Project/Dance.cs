@@ -10,6 +10,7 @@ namespace Project
     {
         public String name { get; set; }
         public String stepString { get; set; }
+        public String difficulty { get; set; }
         public Step[] steps { get; set; }
     }
 
