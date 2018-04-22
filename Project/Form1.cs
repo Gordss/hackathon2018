@@ -99,6 +99,8 @@ namespace Project
                 else
                     move.Image = Project.Properties.Resources.step_false;
 
+                MessageBox.Show("Dance completed!", "DanceBox");
+
                 Form2 main = new Form2();
                 this.Hide();
                 main.ShowDialog();

@@ -74,10 +74,15 @@ namespace Project
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            if(!File.Exists(@"D:/dances.json"))
+            if (!File.Exists(@"D:/dances.json"))
             {
-                File.Create(@"D:/dances.json");
-                File.WriteAllText(@"D:/dances.json", @"{}");
+                using (StreamWriter w = File.AppendText(@"D:/dances.json"))
+                {
+                    JObject emptyDanceFile = new JObject();
+                    Debug.WriteLine(emptyDanceFile);
+                    w.Write(emptyDanceFile);
+                    w.Close();
+                }
             }
             using (StreamReader file = new StreamReader(@"D:/dances.json"))
             {
