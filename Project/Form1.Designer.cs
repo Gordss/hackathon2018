@@ -90,7 +90,7 @@
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1052, 520);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1578, 800);
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             // 
@@ -104,7 +104,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel2.Controls.Add(this.key_x, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.key_z, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.key_c, 0, 3);
@@ -126,25 +126,25 @@
             this.tableLayoutPanel2.Controls.Add(this.key_1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.key_2, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 35);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 54);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1046, 481);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1570, 740);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // key_x
             // 
             this.key_x.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_x.Image = global::Project.Properties.Resources.step_default;
-            this.key_x.Location = new System.Drawing.Point(212, 364);
-            this.key_x.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_x.Location = new System.Drawing.Point(318, 561);
+            this.key_x.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_x.Name = "key_x";
-            this.key_x.Size = new System.Drawing.Size(203, 113);
+            this.key_x.Size = new System.Drawing.Size(306, 173);
             this.key_x.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_x.TabIndex = 39;
             this.key_x.TabStop = false;
@@ -153,10 +153,10 @@
             // 
             this.key_z.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_z.Image = global::Project.Properties.Resources.step_default;
-            this.key_z.Location = new System.Drawing.Point(3, 364);
-            this.key_z.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_z.Location = new System.Drawing.Point(4, 561);
+            this.key_z.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_z.Name = "key_z";
-            this.key_z.Size = new System.Drawing.Size(203, 113);
+            this.key_z.Size = new System.Drawing.Size(306, 173);
             this.key_z.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_z.TabIndex = 38;
             this.key_z.TabStop = false;
@@ -165,10 +165,10 @@
             // 
             this.key_c.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_c.Image = global::Project.Properties.Resources.step_default;
-            this.key_c.Location = new System.Drawing.Point(421, 364);
-            this.key_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_c.Location = new System.Drawing.Point(632, 561);
+            this.key_c.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_c.Name = "key_c";
-            this.key_c.Size = new System.Drawing.Size(203, 113);
+            this.key_c.Size = new System.Drawing.Size(306, 173);
             this.key_c.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_c.TabIndex = 37;
             this.key_c.TabStop = false;
@@ -177,10 +177,10 @@
             // 
             this.key_b.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_b.Image = global::Project.Properties.Resources.step_default;
-            this.key_b.Location = new System.Drawing.Point(839, 364);
-            this.key_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_b.Location = new System.Drawing.Point(1260, 561);
+            this.key_b.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_b.Name = "key_b";
-            this.key_b.Size = new System.Drawing.Size(204, 113);
+            this.key_b.Size = new System.Drawing.Size(306, 173);
             this.key_b.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_b.TabIndex = 36;
             this.key_b.TabStop = false;
@@ -189,10 +189,10 @@
             // 
             this.key_v.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_v.Image = global::Project.Properties.Resources.step_default;
-            this.key_v.Location = new System.Drawing.Point(630, 364);
-            this.key_v.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_v.Location = new System.Drawing.Point(946, 561);
+            this.key_v.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_v.Name = "key_v";
-            this.key_v.Size = new System.Drawing.Size(203, 113);
+            this.key_v.Size = new System.Drawing.Size(306, 173);
             this.key_v.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_v.TabIndex = 35;
             this.key_v.TabStop = false;
@@ -201,10 +201,10 @@
             // 
             this.key_g.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_g.Image = global::Project.Properties.Resources.step_default;
-            this.key_g.Location = new System.Drawing.Point(839, 244);
-            this.key_g.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_g.Location = new System.Drawing.Point(1260, 376);
+            this.key_g.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_g.Name = "key_g";
-            this.key_g.Size = new System.Drawing.Size(204, 112);
+            this.key_g.Size = new System.Drawing.Size(306, 173);
             this.key_g.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_g.TabIndex = 34;
             this.key_g.TabStop = false;
@@ -213,10 +213,10 @@
             // 
             this.key_f.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_f.Image = global::Project.Properties.Resources.step_default;
-            this.key_f.Location = new System.Drawing.Point(630, 244);
-            this.key_f.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_f.Location = new System.Drawing.Point(946, 376);
+            this.key_f.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_f.Name = "key_f";
-            this.key_f.Size = new System.Drawing.Size(203, 112);
+            this.key_f.Size = new System.Drawing.Size(306, 173);
             this.key_f.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_f.TabIndex = 33;
             this.key_f.TabStop = false;
@@ -225,10 +225,10 @@
             // 
             this.key_d.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_d.Image = global::Project.Properties.Resources.step_default;
-            this.key_d.Location = new System.Drawing.Point(421, 244);
-            this.key_d.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_d.Location = new System.Drawing.Point(632, 376);
+            this.key_d.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_d.Name = "key_d";
-            this.key_d.Size = new System.Drawing.Size(203, 112);
+            this.key_d.Size = new System.Drawing.Size(306, 173);
             this.key_d.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_d.TabIndex = 32;
             this.key_d.TabStop = false;
@@ -237,10 +237,10 @@
             // 
             this.key_s.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_s.Image = global::Project.Properties.Resources.step_default;
-            this.key_s.Location = new System.Drawing.Point(212, 244);
-            this.key_s.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_s.Location = new System.Drawing.Point(318, 376);
+            this.key_s.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_s.Name = "key_s";
-            this.key_s.Size = new System.Drawing.Size(203, 112);
+            this.key_s.Size = new System.Drawing.Size(306, 173);
             this.key_s.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_s.TabIndex = 31;
             this.key_s.TabStop = false;
@@ -249,10 +249,10 @@
             // 
             this.key_a.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_a.Image = global::Project.Properties.Resources.step_default;
-            this.key_a.Location = new System.Drawing.Point(3, 244);
-            this.key_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_a.Location = new System.Drawing.Point(4, 376);
+            this.key_a.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_a.Name = "key_a";
-            this.key_a.Size = new System.Drawing.Size(203, 112);
+            this.key_a.Size = new System.Drawing.Size(306, 173);
             this.key_a.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_a.TabIndex = 30;
             this.key_a.TabStop = false;
@@ -261,10 +261,10 @@
             // 
             this.key_t.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_t.Image = global::Project.Properties.Resources.step_default;
-            this.key_t.Location = new System.Drawing.Point(839, 124);
-            this.key_t.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_t.Location = new System.Drawing.Point(1260, 191);
+            this.key_t.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_t.Name = "key_t";
-            this.key_t.Size = new System.Drawing.Size(204, 112);
+            this.key_t.Size = new System.Drawing.Size(306, 173);
             this.key_t.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_t.TabIndex = 28;
             this.key_t.TabStop = false;
@@ -273,10 +273,10 @@
             // 
             this.key_r.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_r.Image = global::Project.Properties.Resources.step_default;
-            this.key_r.Location = new System.Drawing.Point(630, 124);
-            this.key_r.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_r.Location = new System.Drawing.Point(946, 191);
+            this.key_r.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_r.Name = "key_r";
-            this.key_r.Size = new System.Drawing.Size(203, 112);
+            this.key_r.Size = new System.Drawing.Size(306, 173);
             this.key_r.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_r.TabIndex = 27;
             this.key_r.TabStop = false;
@@ -285,10 +285,10 @@
             // 
             this.key_e.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_e.Image = global::Project.Properties.Resources.step_default;
-            this.key_e.Location = new System.Drawing.Point(421, 124);
-            this.key_e.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_e.Location = new System.Drawing.Point(632, 191);
+            this.key_e.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_e.Name = "key_e";
-            this.key_e.Size = new System.Drawing.Size(203, 112);
+            this.key_e.Size = new System.Drawing.Size(306, 173);
             this.key_e.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_e.TabIndex = 26;
             this.key_e.TabStop = false;
@@ -297,10 +297,10 @@
             // 
             this.key_w.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_w.Image = global::Project.Properties.Resources.step_default;
-            this.key_w.Location = new System.Drawing.Point(212, 124);
-            this.key_w.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_w.Location = new System.Drawing.Point(318, 191);
+            this.key_w.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_w.Name = "key_w";
-            this.key_w.Size = new System.Drawing.Size(203, 112);
+            this.key_w.Size = new System.Drawing.Size(306, 173);
             this.key_w.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_w.TabIndex = 25;
             this.key_w.TabStop = false;
@@ -309,10 +309,10 @@
             // 
             this.key_q.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_q.Image = global::Project.Properties.Resources.step_default;
-            this.key_q.Location = new System.Drawing.Point(3, 124);
-            this.key_q.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_q.Location = new System.Drawing.Point(4, 191);
+            this.key_q.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_q.Name = "key_q";
-            this.key_q.Size = new System.Drawing.Size(203, 112);
+            this.key_q.Size = new System.Drawing.Size(306, 173);
             this.key_q.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_q.TabIndex = 24;
             this.key_q.TabStop = false;
@@ -321,10 +321,10 @@
             // 
             this.key_5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_5.Image = global::Project.Properties.Resources.step_default;
-            this.key_5.Location = new System.Drawing.Point(839, 4);
-            this.key_5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_5.Location = new System.Drawing.Point(1260, 6);
+            this.key_5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_5.Name = "key_5";
-            this.key_5.Size = new System.Drawing.Size(204, 112);
+            this.key_5.Size = new System.Drawing.Size(306, 173);
             this.key_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_5.TabIndex = 22;
             this.key_5.TabStop = false;
@@ -333,10 +333,10 @@
             // 
             this.key_4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_4.Image = global::Project.Properties.Resources.step_default;
-            this.key_4.Location = new System.Drawing.Point(630, 4);
-            this.key_4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_4.Location = new System.Drawing.Point(946, 6);
+            this.key_4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_4.Name = "key_4";
-            this.key_4.Size = new System.Drawing.Size(203, 112);
+            this.key_4.Size = new System.Drawing.Size(306, 173);
             this.key_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_4.TabIndex = 21;
             this.key_4.TabStop = false;
@@ -345,10 +345,10 @@
             // 
             this.key_3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_3.Image = global::Project.Properties.Resources.step_default;
-            this.key_3.Location = new System.Drawing.Point(421, 4);
-            this.key_3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_3.Location = new System.Drawing.Point(632, 6);
+            this.key_3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_3.Name = "key_3";
-            this.key_3.Size = new System.Drawing.Size(203, 112);
+            this.key_3.Size = new System.Drawing.Size(306, 173);
             this.key_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_3.TabIndex = 20;
             this.key_3.TabStop = false;
@@ -357,10 +357,10 @@
             // 
             this.key_1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_1.Image = global::Project.Properties.Resources.step_default;
-            this.key_1.Location = new System.Drawing.Point(3, 4);
-            this.key_1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_1.Location = new System.Drawing.Point(4, 6);
+            this.key_1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_1.Name = "key_1";
-            this.key_1.Size = new System.Drawing.Size(203, 112);
+            this.key_1.Size = new System.Drawing.Size(306, 173);
             this.key_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_1.TabIndex = 18;
             this.key_1.TabStop = false;
@@ -369,10 +369,10 @@
             // 
             this.key_2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.key_2.Image = global::Project.Properties.Resources.step_default;
-            this.key_2.Location = new System.Drawing.Point(212, 4);
-            this.key_2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.key_2.Location = new System.Drawing.Point(318, 6);
+            this.key_2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.key_2.Name = "key_2";
-            this.key_2.Size = new System.Drawing.Size(203, 112);
+            this.key_2.Size = new System.Drawing.Size(306, 173);
             this.key_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key_2.TabIndex = 19;
             this.key_2.TabStop = false;
@@ -388,10 +388,10 @@
             this.backtomenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backtomenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.backtomenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(190)))), ((int)(((byte)(195)))));
-            this.backtomenu.Location = new System.Drawing.Point(999, 1);
-            this.backtomenu.Margin = new System.Windows.Forms.Padding(0, 1, 0, 1);
+            this.backtomenu.Location = new System.Drawing.Point(1499, 2);
+            this.backtomenu.Margin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.backtomenu.Name = "backtomenu";
-            this.backtomenu.Size = new System.Drawing.Size(53, 29);
+            this.backtomenu.Size = new System.Drawing.Size(79, 44);
             this.backtomenu.TabIndex = 1;
             this.backtomenu.Text = "X";
             this.backtomenu.UseVisualStyleBackColor = false;
@@ -399,14 +399,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(230)))), ((int)(((byte)(233)))));
-            this.ClientSize = new System.Drawing.Size(1052, 520);
+            this.ClientSize = new System.Drawing.Size(1578, 800);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DanceBox";

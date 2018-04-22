@@ -20,7 +20,8 @@ namespace Project
     {
 
         public int i = 0;
-        private string data = Form2.danceSelected.stepString;
+        public char last_keyPressed;
+        private string data;
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
         [DllImportAttribute("user32.dll")]
@@ -34,8 +35,9 @@ namespace Project
         {
             InitializeComponent();
             this.BackColor = Color.FromArgb(52, 73, 94);
-
-            switch(Form2.mode)
+            if (Form2.danceSelected != null)
+                data = Form2.danceSelected.stepString;
+            switch (Form2.mode)
             {
                 case "addDance":
                     this.KeyPress += new KeyPressEventHandler(this.AddDance);
@@ -70,8 +72,12 @@ namespace Project
         void DanceBeginner(object sender, KeyPressEventArgs ev)
         {
 
+            if (ev.KeyChar == last_keyPressed)
+                return;
+
             bool rightMove = false;
-            string key = ev.KeyChar.ToString();
+            string key = ev.KeyChar.ToString().ToLower();
+            last_keyPressed = ev.KeyChar;
             PictureBox move;
 
             if (i == data.Length - 1)
@@ -124,11 +130,16 @@ namespace Project
 
         void AddDance(object sender, KeyPressEventArgs ev)
         {
+
+            if (ev.KeyChar == last_keyPressed)
+                return;
+
             if (ev.KeyChar == '9')
             {
                 Dance newDance = new Dance();
                 newDance.name = Form2.newDanceName;
-                newDance.stepString = string.Join("", newDanceCombo.ToArray());
+                newDance.stepString = string.Join("", newDanceCombo.ToArray()).ToString().ToLower();
+                newDance.difficulty = "Beginner";
                 newDance.steps = null;
 
                 Form2.danceList.Add(Form2.newDanceName, JToken.FromObject(newDance));
@@ -145,10 +156,14 @@ namespace Project
                 this.Close();
             }
 
+            last_keyPressed = ev.KeyChar;
             PictureBox move = this.Controls.Find("key_" + ev.KeyChar.ToString(), true).FirstOrDefault() as PictureBox;
 
-            if (move != null)
-                newDanceCombo.Add(ev.KeyChar);
+            if (move == null)
+                return;
+
+            newDanceCombo.Add(ev.KeyChar);
+            move.Image = Project.Properties.Resources.step_true;
 
         }
 

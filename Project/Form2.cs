@@ -68,11 +68,18 @@ namespace Project
             foreach (var item in danceList)
                 listValues.Add(item.Value["name"].ToString());
             listBox1.DataSource = listValues;
+
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            using (StreamReader file = new StreamReader(@"D:\dances.json"))
+            if(!File.Exists(@"D:/dances.json"))
+            {
+                File.Create(@"D:/dances.json");
+                File.WriteAllText(@"D:/dances.json", @"{}");
+            }
+            using (StreamReader file = new StreamReader(@"D:/dances.json"))
             {
                 string raw = file.ReadToEnd();
                 danceList = (JObject)JsonConvert.DeserializeObject(raw);
