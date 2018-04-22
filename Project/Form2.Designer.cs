@@ -37,11 +37,11 @@
             this.exit = new System.Windows.Forms.Button();
             this.Form_Title = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.options = new System.Windows.Forms.Button();
             this.start = new System.Windows.Forms.Button();
             this.dance = new System.Windows.Forms.Label();
             this.difficulty = new System.Windows.Forms.Label();
             this.steps = new System.Windows.Forms.Label();
-            this.options = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -97,9 +97,11 @@
             // 
             // remove
             // 
-            this.remove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
+            this.remove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
             this.remove.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.remove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(190)))), ((int)(((byte)(195)))));
+            this.remove.FlatAppearance.BorderSize = 0;
+            this.remove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.remove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.remove.Location = new System.Drawing.Point(356, 424);
             this.remove.Margin = new System.Windows.Forms.Padding(10);
             this.remove.Name = "remove";
@@ -224,24 +226,44 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(520, 488);
             this.tableLayoutPanel4.TabIndex = 5;
             // 
+            // options
+            // 
+            this.options.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
+            this.options.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.options.FlatAppearance.BorderSize = 0;
+            this.options.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.options.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
+            this.options.Location = new System.Drawing.Point(356, 424);
+            this.options.Margin = new System.Windows.Forms.Padding(10);
+            this.options.Name = "options";
+            this.options.Size = new System.Drawing.Size(154, 28);
+            this.options.TabIndex = 1;
+            this.options.Text = "Options";
+            this.options.UseVisualStyleBackColor = false;
+            // 
             // start
             // 
+            this.start.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
             this.start.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.start.FlatAppearance.BorderSize = 0;
+            this.start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.start.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
             this.start.Location = new System.Drawing.Point(10, 424);
             this.start.Margin = new System.Windows.Forms.Padding(10);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(153, 28);
             this.start.TabIndex = 0;
             this.start.Text = "Start";
-            this.start.UseVisualStyleBackColor = true;
+            this.start.UseVisualStyleBackColor = false;
             this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // dance
             // 
             this.dance.AutoSize = true;
-            this.dance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel4.SetColumnSpan(this.dance, 3);
             this.dance.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dance.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.dance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
             this.dance.Location = new System.Drawing.Point(10, 86);
             this.dance.Margin = new System.Windows.Forms.Padding(10);
             this.dance.Name = "dance";
@@ -253,9 +275,10 @@
             // difficulty
             // 
             this.difficulty.AutoSize = true;
-            this.difficulty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel4.SetColumnSpan(this.difficulty, 3);
             this.difficulty.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.difficulty.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.difficulty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
             this.difficulty.Location = new System.Drawing.Point(10, 231);
             this.difficulty.Margin = new System.Windows.Forms.Padding(10);
             this.difficulty.Name = "difficulty";
@@ -267,9 +290,10 @@
             // steps
             // 
             this.steps.AutoSize = true;
-            this.steps.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel4.SetColumnSpan(this.steps, 3);
             this.steps.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.steps.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.steps.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(148)))));
             this.steps.Location = new System.Drawing.Point(10, 376);
             this.steps.Margin = new System.Windows.Forms.Padding(10);
             this.steps.Name = "steps";
@@ -277,17 +301,6 @@
             this.steps.TabIndex = 5;
             this.steps.Text = "Steps :";
             this.steps.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // options
-            // 
-            this.options.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.options.Location = new System.Drawing.Point(356, 424);
-            this.options.Margin = new System.Windows.Forms.Padding(10);
-            this.options.Name = "options";
-            this.options.Size = new System.Drawing.Size(154, 28);
-            this.options.TabIndex = 1;
-            this.options.Text = "Options";
-            this.options.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
